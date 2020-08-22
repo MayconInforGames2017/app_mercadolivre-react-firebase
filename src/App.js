@@ -1,23 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
+import 'react-native-gesture-handler';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import { Navigation } from './Navigation';
+
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello world!</Text>
-    </View>
+    <Text />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#000',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  text: {
-    color: "#FFF",
-  },
-});
