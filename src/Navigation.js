@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator()
 
 import Home from './view/Home'
+import Login from './view/Login'
 
 export default function Navigation() {
     return (
@@ -13,6 +14,10 @@ export default function Navigation() {
                 <Stack.Screen
                     name="Home"
                     component={Home}
+                />
+                  <Stack.Screen
+                    name="Login"
+                    component={Login}
                 />
             </Stack.Navigator>
         </NavigationContainer>

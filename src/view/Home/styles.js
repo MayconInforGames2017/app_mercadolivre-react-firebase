@@ -5,6 +5,10 @@ const styles = StyleSheet.create({
         flex:1,
         justifyContent: 'center',
         alignItems: 'center',
+        marginHorizontal: 10
+    },
+    text_white: {
+        color: '#FFF'
     }
 })
 

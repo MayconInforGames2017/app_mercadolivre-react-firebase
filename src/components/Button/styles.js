@@ -12,10 +12,10 @@ const styles = StyleSheet.create({
     },
     btn_outline_primary: {
         width: '100%',
-        backgroundColor: '##FFF',
+        backgroundColor: '#FFF',
         borderRadius: 3,
         borderColor: '#3483FA',
-        borderWidth: 2,
+        borderWidth: 1,
         height: 60,
         justifyContent: 'center',
         alignItems: 'center',
