@@ -26,7 +26,7 @@ export default function Login({ navigation }) {
                     style={styles.input}
                 />
             </View>
-            <Button style="outline" onPress={false}><Text style={styles.text_primary}>ENTRAR</Text></Button>
+            <Button style="outline" onPress={() => navigation.navigate('Index')}><Text style={styles.text_primary}>ENTRAR</Text></Button>
             <TouchableOpacity onPress={() => navigation.navigate('RedefiniSenha')} style={styles.redefinePass}><Text style={styles.text_primary}>Esqueceu sua senha?</Text></TouchableOpacity>
         </View>
     );

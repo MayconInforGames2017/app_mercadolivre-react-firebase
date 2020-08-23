@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Te, Image, TextInput, TouchableOpacity } from 'react-native';
+import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 import Button from '../../components/Button'
 
-import logo from '../../../assets/logo.png'
+import logo from '../../../assets/logo.png';
 
 export default function Home({ navigation }) {
     return (
@@ -12,7 +12,7 @@ export default function Home({ navigation }) {
             <img src={logo} />
             <Button style="outline" onPress={() => navigation.navigate('Login')}><Text>ENTRAR</Text></Button>
             <Button onPress={() => navigation.navigate('Cadastro')}><Text style={styles.text_white}>CRIAR CONTA</Text></Button>
-        </View>
+        </View >
     );
 } 
 

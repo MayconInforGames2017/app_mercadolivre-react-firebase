@@ -8,6 +8,7 @@ import Home from './view/Home'
 import Login from './view/Login'
 import Cadastro from './view/Cadastro'
 import RedefiniSenha from './view/RedefiniSenha'
+import Index from './view/index'
 
 export default function Navigation() {
     return (
@@ -28,6 +29,11 @@ export default function Navigation() {
                 <Stack.Screen
                     name="RedefiniSenha"
                     component={RedefiniSenha}
+                />
+                <Stack.Screen
+                    name="Index"
+                    component={Index}
+                    options={{ headerShown: false }}
                 />
             </Stack.Navigator>
         </NavigationContainer>
