@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 const Stack = createStackNavigator()
 
-import Home from './view/Home';
+import Home from './view/Home'
 
 export default function Navigation() {
     return (
@@ -13,7 +13,6 @@ export default function Navigation() {
                 <Stack.Screen
                     name="Home"
                     component={Home}
-
                 />
             </Stack.Navigator>
         </NavigationContainer>

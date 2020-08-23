@@ -1,14 +1,15 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Te, Image, TextInput } from 'react-native';
 
 import  styles from './styles';
 
-const Home = () => {
+import logo from '../../../assets/logo.png';
+
+export default function Home() {
     return (
         <View style={styles.container}>
-            <text>Home</text>
+            <img src={logo} />
         </View>
     );
 } 
 
-export default Home;
